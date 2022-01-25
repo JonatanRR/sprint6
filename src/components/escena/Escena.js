@@ -1,5 +1,6 @@
 import React, { useState} from 'react';
 import { Boxes, PrevNext, ButPrevNext } from './styled';
+import { Popup } from './Popup';
 
 export const Phrase = (props) => {
 
@@ -35,6 +36,7 @@ export const Phrase = (props) => {
                 <ButPrevNext onClick={() => changeColorNext()}>Següent</ButPrevNext>
             </PrevNext>
             {listButton}
+            <Popup />
         </div>
     )
 }
