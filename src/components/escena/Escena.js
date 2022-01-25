@@ -1,3 +1,7 @@
 import React from 'react';
 
-export const Phrase = () => <div>El nostre heroi estava surant per l'espai sideral quan a la llunyania va albirar una nau espacial</div>
+export const Phrase = (props) => {
+
+    const listButton = props.sentences.map((element, index) => <div><p>{element}</p></div>);
+    return (listButton)
+}

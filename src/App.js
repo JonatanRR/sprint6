@@ -1,9 +1,10 @@
 import { Escena, Phrase } from './components/escena/Escena';
+import Sentences from './sentences.json';
 
 function App() {
   return (
     <div>
-      <Phrase />
+      <Phrase sentences = {Sentences} />
     </div>
 
   );
