@@ -1,5 +1,5 @@
 import { Phrase } from './components/escena/Escena';
-import Sentences from './sentences.json';
+import Sentences from './sentences';
 
 function App() {
   return (

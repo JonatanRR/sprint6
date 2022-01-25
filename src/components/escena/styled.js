@@ -19,3 +19,4 @@ export const ButPrevNext = styled.button`
     width: 100%;
     font-size: 18px;
 `
+
